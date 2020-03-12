@@ -1,0 +1,29 @@
+html{
+  height: 100%;
+}
+
+body {
+  height: auto;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to top right, red, white);
+}
+
+div{
+  width: 700px;
+  position: static;
+  margin: 2px auto;
+}
+
+
+div.satu {
+  width: inherit;
+  height: 550px;
+  background-image: radial-gradient(farthest-corner at 50% 100%, white 10%, blue 100%);
+}
+
+div.dua {
+  width: inherit;
+  height: 250px;
+  background-image: radial-gradient(circle at -10% 50%, white 30%, blue 60%, white);
+}
